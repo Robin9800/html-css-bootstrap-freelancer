@@ -37,7 +37,7 @@ p,h1{
 .portfolio i{
     color: black;
 }
-.footer .col h5,p{
+.footer .col h5{
     color: white;
 }
 .footer h5{
@@ -52,6 +52,16 @@ p,h1{
 .footer i{
     font-size: 24px;
     margin: 3px 6px
+}
+.copyright{
+    background-color: hsl(210deg 29% 24%);
+}
+.copyright p{
+    font-size: 10px;
+    color: white;
+}
+.info p{
+    color: white;
 }
 .send a{
     background-color: hsl(168deg 76% 42%); 
