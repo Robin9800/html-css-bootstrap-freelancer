@@ -8,39 +8,39 @@
 p,h1{
     margin-bottom: 0;
 }
+
 /*UTILITIES*/
-.border{
-    border: 1px solid black;
-}
-.white{
-    color: white;
-}
-
-.flex{
-    display: flex;
-}
-.a-center{
-    align-items: center;
-}
-.j-center{
-    justify-content: center;
-}
-
 
 /*CONTENT*/
-.container a{
+
+.container-fluid a{
     text-decoration: none;
     color: white;
+}
+.graphic h1{
+    color: white;
+}
+.graphic p{
+    color: white;
+}
+.header{
+    background-color: hsl(210deg 29% 24%);
+    height: 64px;
+    font-weight: bold;
 }
 .header a{
     font-size: 12px;
 }
-.col{
-    background-color: hsl(210deg 29% 24%);
-    height: 64px;
-}
-
 .title{
     font-size: 20px;
 }
 
+.graphic{
+    background-color: hsl(168deg 76% 42%);
+    height: 56vh;
+}
+
+.avatar{
+    width: 200px;
+    height: auto;
+}
