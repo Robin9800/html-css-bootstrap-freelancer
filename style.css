@@ -28,6 +28,12 @@ p,h1{
     height: 64px;
     font-weight: bold;
 }
+.col i{
+    color: white;
+}
+.portfolio,.contact i{
+    color: black;
+}
 .header a{
     font-size: 12px;
 }
@@ -37,7 +43,6 @@ p,h1{
 
 .graphic{
     background-color: hsl(168deg 76% 42%);
-    height: 56vh;
 }
 
 .avatar{
