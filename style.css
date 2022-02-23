@@ -28,14 +28,33 @@ p,h1{
     height: 64px;
     font-weight: bold;
 }
+.footer{
+    background-color:hsl(209deg 31% 33%); ;
+}
 .col i{
     color: white;
 }
-.portfolio,.contact i{
+.portfolio i{
     color: black;
 }
+.footer .col h5,p{
+    color: white;
+}
+.footer h5{
+    margin-bottom: 4px;
+}
+.footer p{
+    font-size: 12px;
+}
+.footer .col a{
+    color: hsl(168deg 76% 42%);
+}
+.footer i{
+    font-size: 24px;
+    margin: 3px 6px
+}
 .send a{
-    background-color: hsl(168deg 76% 42%); ;
+    background-color: hsl(168deg 76% 42%); 
 }
 .header a{
     font-size: 12px;
